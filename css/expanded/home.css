@@ -274,6 +274,157 @@ input:focus {
   color: #232536;
 }
 
+#global {
+  padding: 96px 0px 96px 0px;
+  background: #ecf8f9;
+}
+#global .global__container {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-column-gap: 141px;
+}
+#global .global__container .global__cont--left h6 {
+  padding-bottom: 16px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.87;
+}
+#global .global__container .global__cont--left h2 {
+  padding-bottom: 24px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  color: #232536;
+}
+#global .global__container .global__cont--left p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5d5f6d;
+}
+#global .global__container .global__cont--right .blue {
+  width: 16px;
+  height: 16px;
+  background: #444cfc;
+}
+#global .global__container .global__cont--right .box {
+  display: grid;
+  grid-row-gap: 12px;
+}
+#global .global__container .global__cont--right .box .card {
+  display: flex;
+  -moz-column-gap: 16px;
+       column-gap: 16px;
+  width: 100%;
+  height: auto;
+  padding: 32px;
+  background: #fff;
+}
+#global .global__container .global__cont--right .box .card .card__title h6 {
+  padding-bottom: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+}
+#global .global__container .global__cont--right .box .card .card__title p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #5d5f6d;
+}
+#global .global__container .global__cont--right .color {
+  width: 100%;
+  height: 8px;
+  background: linear-gradient(to right, #ffa155 0% 25%, #ffd3af 25% 75%, #444cfc 75% 100%);
+}
+
+#solve {
+  padding: 96px 0;
+  background: #ffe6d2;
+}
+#solve .solve__container .solve__cont--top {
+  margin-bottom: 80px;
+}
+#solve .solve__container .solve__cont--top h6 {
+  padding-bottom: 12px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.87;
+}
+#solve .solve__container .solve__cont--top h2 {
+  padding-bottom: 40px;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  color: #232536;
+}
+#solve .solve__container .solve__cont--top .solve__cont--top--button {
+  position: relative;
+}
+#solve .solve__container .solve__cont--top .solve__cont--top--button form #submit {
+  width: 214px;
+  height: 64px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+  background: #444cfc;
+  border: none;
+}
+#solve .solve__container .solve__cont--top .solve__cont--top--button .img-position {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#solve .solve__container .solve__cont--bottom {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-column-gap: 32px;
+}
+#solve .solve__container .solve__cont--bottom .solve__card {
+  width: 100%;
+  height: auto;
+  padding: 48px;
+  background: #fff;
+}
+#solve .solve__container .solve__cont--bottom .solve__card .solve__card--title {
+  margin-top: 16px;
+}
+#solve .solve__container .solve__cont--bottom .solve__card .solve__card--title h6 {
+  padding-bottom: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  color: #000000;
+}
+#solve .solve__container .solve__cont--bottom .solve__card .solve__card--title .p1 {
+  padding-bottom: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #5d5f6d;
+}
+#solve .solve__container .solve__cont--bottom .solve__card .solve__card--title .p2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #444cfc;
+  opacity: 0.87;
+}
+#solve .solve__container .solve__cont--bottom .solve__card .solve__card--title .p2 i {
+  padding-left: 12px;
+  color: #000;
+}
+
 #footer {
   padding: 96px 0px 0px 0px;
 }
