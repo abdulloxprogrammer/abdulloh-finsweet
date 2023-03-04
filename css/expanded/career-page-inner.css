@@ -34,10 +34,10 @@ input:focus {
   outline: none;
 }
 
-#full__developer {
+t #full__developer {
   padding-top: 100px;
 }
-#full__developer .developer .developer__left h4 {
+t #full__developer .developer .developer__left h4 {
   font-weight: 500;
   font-size: 12px;
   line-height: 20px;
@@ -46,7 +46,7 @@ input:focus {
   color: #232536;
   opacity: 0.87;
 }
-#full__developer .developer .developer__left h2 {
+t #full__developer .developer .developer__left h2 {
   font-style: normal;
   font-weight: 600;
   font-size: 38px;
@@ -54,7 +54,7 @@ input:focus {
   color: #232536;
   margin-top: 13px;
 }
-#full__developer .developer .developer__left p {
+t #full__developer .developer .developer__left p {
   font-style: normal;
   font-weight: 400;
   font-size: 13px;
@@ -64,7 +64,7 @@ input:focus {
   color: #232536;
   opacity: 0.87;
 }
-#full__developer .developer .developer__left button {
+t #full__developer .developer .developer__left button {
   position: relative;
   border: none;
   width: 130px;
@@ -77,26 +77,26 @@ input:focus {
   margin-bottom: 60px;
   background: linear-gradient(180deg, #444CFC 0%, #444CFC 100%);
 }
-#full__developer .developer .developer__left button .btn-img-1 {
+t #full__developer .developer .developer__left button .btn-img-1 {
   position: absolute;
   left: 0px;
   top: 0px;
   height: 20px;
 }
-#full__developer .developer .developer__left button .strelka {
+t #full__developer .developer .developer__left button .strelka {
   margin-left: 4px;
   height: 12px;
   padding-top: 3px;
 }
-#full__developer .developer .developer__left button:hover {
+t #full__developer .developer .developer__left button:hover {
   background: linear-gradient(180deg, #565fff 0%, #1824ff 100%);
 }
-#full__developer .developer__right {
+t #full__developer .developer__right {
   position: relative;
   background: #FFE0C7;
   padding: 50px 15px 40px;
 }
-#full__developer .developer__right h3 {
+t #full__developer .developer__right h3 {
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -104,14 +104,14 @@ input:focus {
   margin-bottom: 10px;
   color: #232536;
 }
-#full__developer .developer__right p {
+t #full__developer .developer__right p {
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
   line-height: 34px;
   color: #000000;
 }
-#full__developer .developer__right img {
+t #full__developer .developer__right img {
   position: absolute;
   top: 0;
   right: 0;
