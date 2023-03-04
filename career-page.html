@@ -1,100 +1,386 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Career Page</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/compressed/career-page.min.css" />
+    <link
+      rel="icon"
+      href="https://assets-global.website-files.com/5e39e095596498a8b9624af1/5f7de887d00f415aae2a9e07_fs-logo.png"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Career Page</title>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="css/compressed/career-page.min.css" />
-</head>
-
-<body>
-  <main>
-    <section id="careers">
-      <div class="container careers__top">
-        <div class="careers__top--box">
-          <img data-aos="fade-up" src="./images/career-page/top-img.png" alt="" class="careers__top--img">
-          <p data-aos="fade-up">CAREER AT FINSWEET</p>
-          <h2 data-aos="fade-up">We hired people who are
-            Always Passionate about what they do</h2>
-          <p data-aos="fade-up">Through True Rich Attended does no end it his mother since real had half every him case
-            in packages enquire we
-            up ecstatic unsatiable saw . </p>
+  <body>
+    <header>
+      <nav id="nav" class="navbar">
+        <div class="container">
+          <div class="nav__container">
+            <div class="nav__cont--left">
+              <img src="images/home/Logo.svg" alt="page" />
+            </div>
+            <div class="nav__cont--right">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="service-page.html">Service</a></li>
+                <li><a href="company-page.html">Company</a></li>
+                <li><a href="career-page.html">Career</a></li>
+                <li><a href="blog-page.html">Blog</a></li>
+                <li><a href="contact-us.html">Contact us</a></li>
+                <li>
+                  <a class="nav--link" href="popup.html">
+                    Clone project <i class="uil uil-arrow-right"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="toggle">
+              <button id="navbar-open">
+                <i class="uil uil-list-ui-alt"></i>
+              </button>
+            </div>
+          </div>
         </div>
-        <div class="careers__top--footer">
-          <img class="logo1" data-aos="fade-up" src="./images/career-page/Image.png" alt="">
-          <p  data-aos="fade-up" >See Our open positions </p>
-          <img  data-aos="fade-up"  class="logo2"  src="./images/career-page/👇.png" alt="">
+      </nav>
+      <nav id="navbar-responsive">
+        <div class="container">
+          <div class="nav__container">
+            <div class="nav__cont--right">
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="service-page.html">Service</a></li>
+                <li><a href="company-page.html">Company</a></li>
+                <li><a href="career-page.html">Career</a></li>
+                <li><a href="blog-page.html">Blog</a></li>
+                <li><a href="contact-us.html">Contact us</a></li>
+                <li>
+                  <a class="nav--link" href="popup.html">
+                    Clone project <i class="uil uil-arrow-right"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="toggle">
+              <button id="navbar-close">
+                <i class="uil uil-times"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="careers">
+        <div class="container careers__top">
+          <div class="careers__top--box">
+            <img
+              data-aos="fade-up"
+              src="./images/career-page/top-img.png"
+              alt=""
+              class="careers__top--img"
+            />
+            <p data-aos="fade-up">CAREER AT FINSWEET</p>
+            <h2 data-aos="fade-up">
+              We hired people who are Always Passionate about what they do
+            </h2>
+            <p data-aos="fade-up">
+              Through True Rich Attended does no end it his mother since real
+              had half every him case in packages enquire we up ecstatic
+              unsatiable saw .
+            </p>
+          </div>
+          <div class="careers__top--footer">
+            <img
+              class="logo1"
+              data-aos="fade-up"
+              src="./images/career-page/Image.png"
+              alt=""
+            />
+            <p data-aos="fade-up">See Our open positions</p>
+            <img
+              data-aos="fade-up"
+              class="logo2"
+              src="./images/career-page/👇.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <section id="careers__body">
+        <div class="container careers__body--global">
+          <div data-aos="fade-up" class="careers__body--cards">
+            <h4>Full Stack Developer</h4>
+            <p>Bengaluru · Full Time</p>
+            <p>$10K - $18K · No equity</p>
+            <a href="index.html"
+              >Apply Now
+              <img src="./images/career-page/Icon_strelka_ong.png" alt=""
+            /></a>
+          </div>
+          <div data-aos="fade-up" class="careers__body--cards">
+            <h4>Testing Engineer</h4>
+            <p>Remote · Full Time</p>
+            <p>$08K - $10K · No equity</p>
+            <a href="index.html"
+              >Apply Now
+              <img src="./images/career-page/Icon_strelka_ong.png" alt=""
+            /></a>
+          </div>
+          <div data-aos="fade-up" class="careers__body--cards">
+            <h4>Hr Manager</h4>
+            <p>Mumbai . Fultime</p>
+            <p>$08K - $10K · 4 to 5 Yrs Exp</p>
+            <a href="index.html"
+              >Apply Now
+              <img src="./images/career-page/Icon_strelka_ong.png" alt=""
+            /></a>
+          </div>
+          <div data-aos="fade-up" class="careers__body--cards">
+            <h4>Product Designer</h4>
+            <p>Mumbai . Fultime</p>
+            <p>$08K - $10K · 4 to 5 Yrs Exp</p>
+            <a href="index.html"
+              >Apply Now
+              <img src="./images/career-page/Icon_strelka_ong.png" alt=""
+            /></a>
+          </div>
+          <div data-aos="fade-up" class="careers__body--cards">
+            <h4>Wordpress Developer</h4>
+            <p>Mumbai . Fultime</p>
+            <p>$08K - $10K · 4 to 5 Yrs Exp</p>
+            <a href="index.html"
+              >Apply Now
+              <img src="./images/career-page/Icon_strelka_ong.png" alt=""
+            /></a>
+          </div>
+          <div data-aos="fade-up" class="careers__body--cards">
+            <h4>Jr. QA Tester</h4>
+            <p>California, USA . Full Time</p>
+            <p>$14K - $23K · No equity</p>
+            <a href="index.html"
+              >Apply Now
+              <img src="./images/career-page/Icon_strelka_ong.png" alt=""
+            /></a>
+          </div>
+          <div data-aos="fade-up" class="careers__body--cards">
+            <h4>Sr. UX Designer</h4>
+            <p>California, USA . Full Time</p>
+            <p>$14K - $23K · No equity</p>
+            <a href="index.html"
+              >Apply Now
+              <img src="./images/career-page/Icon_strelka_ong.png" alt=""
+            /></a>
+          </div>
+          <div data-aos="fade-up" class="careers__body--cards">
+            <h4>Social Media Manager</h4>
+            <p>Kolkata, India . Fulltime</p>
+            <p>$5K - $6K · Fresher</p>
+            <a href="index.html"
+              >Apply Now
+              <img src="./images/career-page/Icon_strelka_ong.png" alt=""
+            /></a>
+          </div>
+          <div data-aos="fade-up" class="careers__body--cards">
+            <h4>Golang Developer</h4>
+            <p>Mumbai . Fultime</p>
+            <p>$08K - $10K · 4 to 5 Yrs Exp</p>
+            <a href="index.html"
+              >Apply Now
+              <img src="./images/career-page/Icon_strelka_ong.png" alt=""
+            /></a>
+          </div>
+        </div>
+      </section>
+      <section data-aos="fade-up" id="careers__footer">
+        <div data-aos="fade-up" class="container coreers__footer--content">
+          <h4 data-aos="fade-up">OUR WORK & CULTURE</h4>
+          <h2 data-aos="fade-up">
+            Come and join a team of highly skilled professionals.
+          </h2>
+          <p data-aos="fade-up">
+            Through True Rich Attended does no end it his mother since real had
+            half every him case in packages enquire we up ecstatic unsatiable
+            saw his giving Remain expense you position concluded.
+          </p>
+        </div>
+        <div class="container careers__footer--boxs">
+          <div data-aos="fade-up" class="careers__footer--box">
+            <img src="./images/career-page/sticker-icon.png" alt="" />
+            <h4>Covid-19 insurance</h4>
+            <p>
+              Through True Rich Attended does no end it his mother since real
+              had halfdoes no end it
+            </p>
+          </div>
+          <div data-aos="fade-up" class="careers__footer--box">
+            <img src="./images/career-page/sticker-icon1.png" alt="" />
+            <h4>Flexible working time</h4>
+            <p>
+              Through True Rich Attended does no end it his mother since real
+              had halfdoes no end it
+            </p>
+          </div>
+          <div data-aos="fade-up" class="careers__footer--box">
+            <img src="./images/career-page/sticker-icon2.png" alt="" />
+            <h4>Work from home</h4>
+            <p>
+              Through True Rich Attended does no end it his mother since real
+              had halfdoes no end it
+            </p>
+          </div>
+          <div data-aos="fade-up" class="careers__footer--box">
+            <img src="./images/career-page/sticker-icon3.png" alt="" />
+            <h4>Annual retreats</h4>
+            <p>
+              Through True Rich Attended does no end it his mother since real
+              had halfdoes no end it
+            </p>
+          </div>
+          <div data-aos="fade-up" class="careers__footer--box">
+            <img src="./images/career-page/sticker-icon4.png" alt="" />
+            <h4>Learning stipend</h4>
+            <p>
+              Through True Rich Attended does no end it his mother since real
+              had halfdoes no end it
+            </p>
+          </div>
+          <div data-aos="fade-up" class="careers__footer--box">
+            <img src="./images/career-page/sticker-icon5.png" alt="" />
+            <h4>Gym membership</h4>
+            <p>
+              Through True Rich Attended does no end it his mother since real
+              had halfdoes no end it
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+    </main>
+
+    <footer id="footer">
+      <div class="container">
+        <div class="footer__container">
+          <div class="footer__cont--top">
+            <div class="footer__cont--top--left">
+              <div class="f__top--left">
+                <h5>NEWSLETTER</h5>
+                <h3>Subscribe our News Letter <br />to get Latest Updates.</h3>
+              </div>
+              <div class="f__top--right">
+                <form action="#">
+                  <input
+                    required
+                    placeholder="Paresh@Pixeto.com"
+                    type="email"
+                    id="email"
+                    name="email"
+                  />
+                </form>
+              </div>
+              <div class="img-position">
+                <img src="images/home/Shapes.svg" alt="page" />
+              </div>
+            </div>
+            <div class="footer__cont--top--right">
+              <div class="page-position"></div>
+            </div>
+          </div>
+          <div class="footer__cont--bottom">
+            <div class="f__cont--bottom--top">
+              <div class="f__cont--top--left">
+                <h2>Let's make <br />something special</h2>
+                <h5>Let's talk! 🤙</h5>
+                <div class="adress">
+                  <h6>020 7993 2905</h6>
+                  <h6 class="h6">hi@finsweet.com</h6>
+                  <hr />
+                  <p>DLF Cybercity, Bhubaneswar, <br />India, &52050</p>
+                </div>
+              </div>
+              <div class="f__cont--top--right">
+                <div class="right__card1">
+                  <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="service-page.html">Service</a></li>
+                    <li><a href="company-page.html">Company</a></li>
+                    <li><a href="career-page-inner.html">Career Inner</a></li>
+                    <li><a href="blog-inner-page.html">Blog Inner</a></li>
+                    <li>
+                      <a href="team-template-page.html">Team Template</a>
+                    </li>
+                    <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                  </ul>
+                </div>
+                <div class="right__card2">
+                  <h6>Service</h6>
+                  <p>Technical support</p>
+                  <p>Testing</p>
+                  <p>Development</p>
+                  <p>AWS/Azure</p>
+                  <p>Consulting</p>
+                  <p>Information Technology</p>
+                </div>
+                <div class="right__card3">
+                  <h6>Resourses</h6>
+                  <p>About Us</p>
+                  <p>Testimonial</p>
+                  <p>Terms of use</p>
+                  <p>Consulting</p>
+                </div>
+                <div class="page-position">
+                  <div class="color"></div>
+                  <div class="perexod">
+                    <a href="contact-us.html"
+                      >Contact Us <i class="uil uil-arrow-right"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="img-position">
+                <img src="images/home/Shapes-footer.svg" alt="page" />
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
-    <section id="careers__body">
-      <div  class="container careers__body--global">
-        <div  data-aos="fade-up"  class="careers__body--cards">
-          <h4>Full Stack Developer</h4>
-          <p>Bengaluru · Full Time </p>
-          <p>$10K - $18K · No equity</p>
-          <a href="index.html">Apply Now <img src="./images/career-page/Icon_strelka_ong.png" alt=""></a>
+      <section id="last__footer">
+        <div class="container">
+          <div class="f__cont--bottom--bottom">
+            <div class="f__cont--bottom--left">
+              <div class="footer-logo">
+                <img src="images/home/Logo-footer.svg" alt="page" />
+              </div>
+              <div class="footer-title">
+                <h6>©2021 Finsweet</h6>
+              </div>
+            </div>
+            <div class="f__cont--bottom--right">
+              <a href="https://facebook.com/"
+                ><i class="uil uil-facebook"></i
+              ></a>
+              <a href="https://twitter.com/"><i class="uil uil-twitter"></i></a>
+              <a href="https://instagram.com/"
+                ><i class="uil uil-instagram"></i
+              ></a>
+              <a href="https://linkedin.com/"
+                ><i class="uil uil-linkedin"></i
+              ></a>
+            </div>
+          </div>
         </div>
-        <div  data-aos="fade-up"  class="careers__body--cards">
-          <h4>Testing Engineer</h4>
-          <p>Remote · Full Time </p>
-          <p>$08K - $10K · No equity</p>
-          <a href="index.html">Apply Now <img src="./images/career-page/Icon_strelka_ong.png" alt=""></a>
-        </div>
-        <div  data-aos="fade-up"  class="careers__body--cards">
-          <h4>Hr Manager</h4>
-          <p>Mumbai . Fultime</p>
-          <p>$08K - $10K · 4 to 5 Yrs Exp</p>
-          <a href="index.html">Apply Now <img src="./images/career-page/Icon_strelka_ong.png" alt=""></a>
-        </div>
-        <div  data-aos="fade-up"  class="careers__body--cards">
-          <h4>Product Designer</h4>
-          <p>Mumbai . Fultime</p>
-          <p>$08K - $10K · 4 to 5 Yrs Exp</p>
-          <a href="index.html">Apply Now <img src="./images/career-page/Icon_strelka_ong.png" alt=""></a>
-        </div>
-        <div  data-aos="fade-up"  class="careers__body--cards">
-          <h4>Wordpress Developer</h4>
-          <p>Mumbai . Fultime</p>
-          <p>$08K - $10K · 4 to 5 Yrs Exp</p>
-          <a href="index.html">Apply Now <img src="./images/career-page/Icon_strelka_ong.png" alt=""></a>
-        </div>
-        <div  data-aos="fade-up"  class="careers__body--cards">
-          <h4>Jr. QA Tester</h4>
-          <p>California, USA . Full Time</p>
-          <p>$14K - $23K · No equity</p>
-          <a href="index.html">Apply Now <img src="./images/career-page/Icon_strelka_ong.png" alt=""></a>
-        </div>
-        <div  data-aos="fade-up"  class="careers__body--cards">
-          <h4>Sr. UX Designer</h4>
-          <p>California, USA . Full Time</p>
-          <p>$14K - $23K · No equity</p>
-          <a href="index.html">Apply Now <img src="./images/career-page/Icon_strelka_ong.png" alt=""></a>
-        </div>
-        <div  data-aos="fade-up"  class="careers__body--cards">
-          <h4>Social Media Manager</h4>
-          <p>Kolkata, India .  Fulltime</p>
-          <p>$5K - $6K ·  Fresher  </p>
-          <a href="index.html">Apply Now <img src="./images/career-page/Icon_strelka_ong.png" alt=""></a>
-        </div>
-        <div  data-aos="fade-up"  class="careers__body--cards">
-          <h4>Golang Developer</h4>
-          <p>Mumbai . Fultime</p>
-          <p>$08K - $10K · 4 to 5 Yrs Exp</p>
-          <a href="index.html">Apply Now <img src="./images/career-page/Icon_strelka_ong.png" alt=""></a>
-        </div>
-        
-        
-      </div>
-    </section>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
-  </main>
-</body>
-
+      </section>
+      <a href="#">
+        <button id="backtop">
+          <i class="uil uil-top-arrow-from-top"></i>
+        </button>
+      </a>
+    </footer>
+  </body>
 </html>

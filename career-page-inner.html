@@ -1,13 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Career Page Inner</title>
-    <link rel="stylesheet" href="css/compressed/career-page-inner.min.css" />
-  </head>
-  <body>
-    <script src="js/main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Career Page Inner</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/compressed/career-page-inner.min.css" />
+  <link rel="icon"
+    href="https://assets-global.website-files.com/5e39e095596498a8b9624af1/5f7de887d00f415aae2a9e07_fs-logo.png">
+</head>
+
+<body>
+  
+  <section id="full__developer">
+    <div class="developer container">
+      <div class="developer__left">
+        <h4>CAREER AT Ether</h4>
+        <h2>Full Stack Developer</h2>
+        <p>Through True Rich Attended does no end it his mother since real had half every him case in packages.</p>
+        <button><img class="btn-img-1" src="./images/career-page/Shapes-button.png" alt="">Apply Now <img
+            class="strelka" src="./images/career-page/Icon-strelkaaaaa.png " alt=""></button>
+      </div>
+      <div class="developer__right">
+        <img src="./images/career-page/Shapes-right.png" alt="">
+        <h3>Job Description</h3>
+        <p>Remote, India , 4 to 5 Years Of Experience</p>
+        <p>Department: Product Engineering</p>
+        <p>Full Time 5 Position Available.</p>
+      </div>
+    </div>
+
+  </section>
+  <section  id="detals" class="container
+  ">
+    <div  class="ap-tab">
+      <ul class="ap-tab-list">
+        <li class="ap-tab-item"><a class="ap-tab-link" href="#">Details</a></li>
+        <li class="ap-tab-item"><a class="ap-tab-link" href="#">Requirements</a></li>
+        <li class="ap-tab-item"><a class="ap-tab-link" href="#">Responsibilities</a></li>
+      </ul>
+    </div>
+    <div class="ap-tab-container">
+      <div class="ap-tab-content">
+        <ul>
+          <li>Create and edit video content for multi-platform use and distribution for social media channels (Facebook, Youtube, Instagram, Snapchat, IGTV, Facebook Stories and Instagram Stories).</li>
+          <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, laboriosam! Debitis recusandae quas ad qui quisquam at rem dolore quod, cumque atque placeat dolorem quidem.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vitae numquam impedit recusandae amet laboriosam molestias, tempore voluptates aut corporis.</li>
+          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem minus cumque asperiores?</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, hic debitis. Maiores non fugit suscipit aspernatur cumque porro delectus!</li>
+          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui saepe mollitia inventore labore perferendis esse minima odit.</li>
+          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, itaque ea temporibus consequuntur voluptatum culpa facilis ab explicabo nostrum soluta fugit!</li>
+        </ul>
+      </div>
+      <div class="ap-tab-content">
+        <ul>
+          <li>Create and edit video content for multi-platform use and distribution for social media channels (Facebook, Youtube, Instagram, Snapchat, IGTV, Facebook Stories and Instagram Stories).</li>
+          <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, laboriosam! Debitis recusandae quas ad qui quisquam at rem dolore quod, cumque atque placeat dolorem quidem.</li>
+          <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia vitae numquam impedit recusandae amet laboriosam molestias, tempore voluptates aut corporis.</li>
+          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem minus cumque asperiores?</li>
+          <li>Lorem ipsum dolor sit amet.</li>
+        </ul>
+      </div>
+      <div class="ap-tab-content">
+        <ul>
+          <li>Lorem ipsum dolor sit amet.</li>
+          <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Itaque, hic debitis. Maiores non fugit suscipit aspernatur cumque porro delectus!</li>
+          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui saepe mollitia inventore labore perferendis esse minima odit.</li>
+          <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, itaque ea temporibus consequuntur voluptatum culpa facilis ab explicabo nostrum soluta fugit!</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section id="apply_now">
+    <div class="apply__now container">
+      <h2 class="appyh2">Apply Now</h2>
+     <form action="#">
+      <div class="form">
+        <input type="text" placeholder="First Name" required>
+        <input type="text" placeholder="Last Name" required>
+        <input type="email" placeholder="Email Id" required>
+        <input type="number" placeholder="Mobile No" required>
+      </div>
+      <textarea name="textlar" placeholder="Why do you thing you are good fit for Ether?" id="comment" cols="30" rows="10"></textarea>
+      <button class="btn">Submit Application</button>
+     </form>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/gh/abdulazizcreator/ap-tab/main.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    const tabs = document.querySelectorAll(".ap-tab-link");
+    const tabs_content = document.querySelectorAll(".ap-tab-content");
+
+    function getActiveTab(i) {
+      tabs.forEach((tab) => {
+        tab.classList.remove("active-tab");
+      });
+      tabs_content.forEach((tabContent) => {
+        tabContent.classList.remove("active-tab");
+        tabContent.style.display = "none";
+      });
+
+      const selectedTab = tabs[i];
+      const selectedTabContent = tabs_content[i];
+
+      selectedTab.classList.add("active-tab");
+      selectedTabContent.classList.add("active-tab");
+      selectedTabContent.style.display = "block";
+    }
+
+    getActiveTab(0);
+
+    for (let i = 0; i < tabs.length; i++) {
+      tabs[i].addEventListener("click", function (e) {
+        e.preventDefault();
+        getActiveTab(i);
+      });
+    }
+  </script>
+</body>
+
 </html>
+  
