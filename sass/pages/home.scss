@@ -1696,6 +1696,10 @@
   }
   #footer {
     .footer__container {
+      .footer__cont--top {
+        display: flex;
+        justify-content: center;
+      }
       .footer__cont--bottom {
         .f__cont--bottom--top {
           display: grid;

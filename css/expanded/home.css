@@ -1395,6 +1395,10 @@ input:focus {
   #global .global__container .global__cont--right .box .card .card__title p {
     font-size: 13px;
   }
+  #footer .footer__container .footer__cont--top {
+    display: flex;
+    justify-content: center;
+  }
   #footer .footer__container .footer__cont--bottom .f__cont--bottom--top {
     display: grid;
     grid-template-columns: auto;
