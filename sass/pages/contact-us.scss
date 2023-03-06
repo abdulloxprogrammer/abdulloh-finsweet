@@ -225,8 +225,8 @@ button p {
 
 button svg {
   position: absolute;
-  top: 0.45em;
-  right: 0.5em;
+  top: 19px;
+  right: 5px;
   margin: 0;
   padding: 0;
   opacity: 0;
@@ -246,4 +246,109 @@ button:hover svg {
 
 button:hover {
   background-color: #bc2a8d;
+}
+.contact__container--right {
+  display: flex;
+  justify-content: center;
+}
+.card__box {
+  width: 340px;
+  height: 445px;
+  margin-top: 40px;
+  background: #666dff;
+  .top__p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    padding-top: 41px;
+    padding-left: 36px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    opacity: 0.6;
+  }
+  .line {
+    width: 218px;
+    height: 0px;
+    margin-left: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+  }
+  .top__h4 {
+    text-align: justify;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    margin-left: 20px;
+    color: #ffffff;
+    padding-top: 8px;
+    padding-left: 15px;
+    max-width: 300px;
+    letter-spacing: -0.2px;
+  }
+  .center__p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    opacity: 0.6;
+    padding-top: 12px;
+    padding-left: 36px;
+    padding-bottom: 10px;
+  }
+  .center__h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    padding-left: 36px;
+    padding-top: 8px;
+  }
+  .center__p2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    opacity: 0.6;
+    padding-left: 36px;
+  }
+  .bottom__p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+    opacity: 0.6;
+    padding-top: 22px;
+    padding-left: 36px;
+    padding-bottom: 10px;
+  }
+  .bottom__h4 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    opacity: 0.6;
+    padding-left: 36px;
+    padding-top: 8px;
+  }
+  .img {
+    padding-left: 36px;
+    padding-top: 33px;
+    img {
+      padding-left: 10px;
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  .contact__container {
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-column-gap: 80px;
+  }
 }
