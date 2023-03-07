@@ -410,6 +410,10 @@ input:focus {
   }
 }
 @media (max-width: 1285px) {
+  #footer .footer__container .footer__cont--top {
+    display: flex;
+    justify-content: center;
+  }
   #footer .footer__container .footer__cont--top .footer__cont--top--left {
     display: grid;
     grid-template-columns: auto;

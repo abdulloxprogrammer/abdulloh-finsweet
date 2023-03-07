@@ -1056,6 +1056,10 @@ input:focus {
     justify-content: center;
     grid-row-gap: 32px;
   }
+  #footer .footer__container .footer__cont--top {
+    display: flex;
+    justify-content: center;
+  }
   #footer .footer__container .footer__cont--top .footer__cont--top--left {
     display: grid;
     grid-template-columns: auto;
@@ -1205,6 +1209,10 @@ input:focus {
   }
   #love .love__container .love__cont--right .right-c #custom-carousel {
     width: 500px;
+  }
+  #footer .footer__container .footer__cont--top {
+    display: flex;
+    justify-content: center;
   }
   #footer .footer__container .footer__cont--top .footer__cont--top--left {
     width: 400px;

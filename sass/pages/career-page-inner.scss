@@ -651,6 +651,8 @@ textarea {
   #footer {
     .footer__container {
       .footer__cont--top {
+        display: flex;
+        justify-content: center;
         .footer__cont--top--left {
           display: grid;
           grid-template-columns: auto;
