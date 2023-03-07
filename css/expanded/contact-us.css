@@ -370,13 +370,6 @@ button:hover {
   padding-left: 10px;
 }
 
-@media (min-width: 600px) {
-  .contact__container {
-    display: grid;
-    grid-template-columns: repeat(2 1fr);
-    grid-column-gap: 80px;
-  }
-}
 #footer {
   padding: 96px 0px 0px 0px;
 }
@@ -616,6 +609,59 @@ button:hover {
   transition: 1s;
 }
 
+#map {
+  padding-top: 116px;
+}
+#map iframe {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+@media (min-width: 900px) {
+  #contact {
+    padding-top: 190px;
+  }
+  .contact__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 80px;
+  }
+  .card__box {
+    width: 512px;
+    height: 605px;
+  }
+  .card__box .top {
+    padding-left: 44px;
+    padding-top: 41px;
+  }
+  .card__box .center {
+    padding-left: 44px;
+    padding-top: 12px;
+  }
+  .card__box .bottom {
+    padding-left: 44px;
+    padding-top: 24px;
+  }
+  .card__box .img {
+    padding-top: 55px;
+  }
+  .left__lg--right {
+    position: relative;
+    left: 636px;
+    top: 16px;
+  }
+  .left__lg--left {
+    position: relative;
+    top: 16px;
+  }
+  #map {
+    padding-top: 116px;
+  }
+  #map iframe {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
 @media (max-width: 1285px) {
   #footer .footer__container .footer__cont--top {
     display: flex;

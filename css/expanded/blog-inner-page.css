@@ -259,4 +259,7 @@ body {
   .code__center--content .user span {
     padding-left: 16px;
   }
+  .content h1 {
+    margin-left: 250px;
+  }
 }
